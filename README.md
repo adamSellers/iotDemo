@@ -5,6 +5,13 @@ This app is to be a starter to get other SE's up and running with the Salesforce
 1. Raspberry Pi Zero
 2. Pimoroni Enviro Phat
 
+## Hardware
+
+This demo is built on the following hardware, it will probably work on others. 
+
+* Raspbery Pi Model 3b and Raspberry Pi Zero (recommend the zero for form factor reasons)
+* Piromoni [Enviro PHAT](https://shop.pimoroni.com/products/enviro-phat) 
+
 ## Prerequisites
 
 This assumes you've done the following already. 
@@ -28,7 +35,7 @@ cd iotDemo && npm install
 ```
 
 ### Important - stuff you need to do!
-You can get this to work directly with a Salesforce Org by installing [this package](TODO).
+You can get this to work directly with a Salesforce Org by installing [this package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000004DE7P).
 
 Once installed, do the following from within the iotDemo folder. 
 
