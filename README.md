@@ -24,7 +24,7 @@ git clone https://github.com/adamSellers/iotDemo.git
 
 Install the dependencies
 ```
-npm install
+cd iotDemo && npm install
 ```
 
 ### Important - stuff you need to do!
@@ -43,3 +43,8 @@ nano .env
 Enter the following config vars: 
 * SF_USER={enter your username}
 * SF_PASS={enter your password}
+
+Once setup, run all the things.
+```
+node app.js
+```
