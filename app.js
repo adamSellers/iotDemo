@@ -22,10 +22,10 @@ conn.login(process.env.SF_USER, process.env.SF_PASS, function(err, res) {
     py.on('message', function(message) {
         //data returned from phat, post to platform event in Salesforce
         conn.sobject('Inbound_Payload__e').create({
-            Inbound_Reading_c: message,
+            Inbound_Reading__c: message,
             Device_Id__c: 'connectedThingy01'
         }, function(err, ret){
-            if (err || !ret.success) { return console.error(error, ret);}
+            if (err || !ret.success) { return console.error(err, ret);}
             console.log('Event record: ' + ret.id + ' created successfully. Reading was: ' + message);
         });
     });
