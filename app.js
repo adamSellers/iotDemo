@@ -2,7 +2,7 @@
 // This is bad code, not intended for use in Production environments. 
 
 //require dotenv
-require('dotenv').config;
+require('dotenv').config();
 
 //setup salesforce connection
 var jsforce = require('jsforce');
