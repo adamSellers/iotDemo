@@ -10,7 +10,7 @@ This app is to be a starter to get other SE's up and running with the Salesforce
 This demo is built on the following hardware, it will probably work on others. 
 
 * Raspbery Pi Model 3b and Raspberry Pi Zero (recommend the zero for form factor reasons)
-* Piromoni [Enviro PHAT](https://shop.pimoroni.com/products/enviro-phat) 
+* Pimoroni [Enviro PHAT](https://shop.pimoroni.com/products/enviro-phat) 
 
 ## Prerequisites
 
