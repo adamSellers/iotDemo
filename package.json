@@ -1,0 +1,25 @@
+{
+  "name": "iotdemo",
+  "version": "1.0.0",
+  "description": "This app is to be a starter to get other SE's up and running with the Salesforce IOT Demo using the following hardware;",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "jsforce": "^1.8.1",
+    "python-shell": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamSellers/iotDemo.git"
+  },
+  "author": "Adam Sellers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamSellers/iotDemo/issues"
+  },
+  "homepage": "https://github.com/adamSellers/iotDemo#readme"
+}
