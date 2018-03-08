@@ -14,7 +14,7 @@ var pythonPath = 'readings.py';
 var py = new pythonShell(pythonPath);
 
 //everything is setup, let's connect to SF!
-conn.login(PROCESS.ENV.SF_USER, PROCESS.ENV.SF_PASS, function(err, res) {
+conn.login(process.env.SF_USER, process.env.SF_PASS, function(err, res) {
     if(err) { return console.error(err); }
     console.log('Huzzah! Welcome to Salesforce user ID: ' + res.id);
 
