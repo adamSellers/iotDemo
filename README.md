@@ -1,4 +1,4 @@
-#This is an IOT Demo App
+# This is an IOT Demo App
 
 This app is to be a starter to get other SE's up and running with the Salesforce IOT Demo using the following hardware;
 
