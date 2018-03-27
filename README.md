@@ -48,8 +48,10 @@ Open the .env file and add some vars
 nano .env
 ````
 Enter the following config vars: 
+````
 * SF_USER={enter your username}
 * SF_PASS={enter your password}
+````
 
 Once setup, run all the things.
 ````
