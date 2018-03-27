@@ -18,7 +18,8 @@ This assumes you've done the following already.
 
 1. Soldered on you PHat - instructions on soldering stuff can be found [here](https://learn.pimoroni.com/tutorial/sandyj/soldering-phats) if you need them. 
 2. Installed Raspbian on your Pi Zero - [instructions](https://www.raspberrypi.org/documentation/installation/installing-images/README.md). As another helpful hint, [this blog](https://www.desertbot.io/blog/ssh-into-pi-zero-over-usb) helped me connect to the pi over usb.
-3. Installed node and setup your enviro phat.
+3. Setup your wifi on the device with [these instructions](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
+4. Installed node and setup your enviro phat.
   * Install node from CLI for pi [instructions](https://github.com/sdesalas/node-pi-zero)
   * Setup the Phat [instructions](https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-enviro-phat)
 
