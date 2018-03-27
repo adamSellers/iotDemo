@@ -42,16 +42,16 @@ Once installed, do the following from within the iotDemo folder.
 Create a .env file. 
 ````
 touch .env
-```
+````
 Open the .env file and add some vars
-```
+````
 nano .env
-```
+````
 Enter the following config vars: 
 * SF_USER={enter your username}
 * SF_PASS={enter your password}
 
 Once setup, run all the things.
-```
+````
 node app.js
-```
+````
