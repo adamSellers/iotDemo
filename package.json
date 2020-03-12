@@ -6,7 +6,14 @@
   "dependencies": {
     "dotenv": "^5.0.1",
     "jsforce": "^1.8.1",
-    "python-shell": "^0.5.0"
+    "python-shell": "^0.5.0",
+    "cryptiles": ">=4.1.2",
+    "csv-parse": ">=4.4.6",
+    "stringstream": ">=0.0.6",
+    "open": ">=6.0.0",
+    "sshpk": ">=1.13.2",
+    "lodash": ">=4.17.12",
+    "extend": ">=3.0.2"
   },
   "devDependencies": {},
   "scripts": {
