@@ -12,7 +12,7 @@
     "stringstream": ">=0.0.6",
     "open": ">=6.0.0",
     "sshpk": ">=1.13.2",
-    "lodash": ">=4.17.12",
+    "lodash": ">=4.17.19",
     "extend": ">=3.0.2"
   },
   "devDependencies": {},
